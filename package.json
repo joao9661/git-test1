@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+  	"start": "npm run lite", 
     "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server" 
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/joao9661/git-test1/issues"
   },
-  "homepage": "https://github.com/joao9661/git-test1#readme"
+  "homepage": "https://github.com/joao9661/git-test1#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
